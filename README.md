@@ -47,7 +47,7 @@ EnviroComply automates compliance management through four specialized AI agents:
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/enviro-comply.git
+git clone https://github.com/cryptoguy1/enviro-comply.git
 cd enviro-comply
 
 # Create virtual environment
