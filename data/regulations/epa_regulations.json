@@ -1,0 +1,217 @@
+{
+  "regulations": [
+    {
+      "id": "nsps-oooo",
+      "title": "Standards of Performance for Crude Oil and Natural Gas Production, Transmission, and Distribution",
+      "citation": "40 CFR 60 Subpart OOOO",
+      "regulation_type": "nsps",
+      "status": "effective",
+      "effective_date": "2012-08-16",
+      "description": "NSPS OOOO establishes emission standards for volatile organic compounds (VOC) from equipment and operations in the oil and gas sector that commenced construction, modification, or reconstruction after August 23, 2011.",
+      "applicable_facility_types": ["production", "gathering", "processing", "transmission"],
+      "applicable_emission_sources": ["storage", "fugitive", "venting", "combustion"],
+      "key_requirements": [
+        "95% VOC control for storage vessels with PTE ≥6 tpy",
+        "Reduced emission completions for hydraulically fractured wells",
+        "Low-bleed or no-bleed pneumatic controllers",
+        "Capture and control of compressor emissions"
+      ],
+      "monitoring_requirements": [
+        "Initial and periodic monitoring of control devices",
+        "Recordkeeping of well completions",
+        "Pneumatic controller counts and bleed rates"
+      ],
+      "recordkeeping_requirements": [
+        "Maintain records for 5 years",
+        "Document all affected facilities",
+        "Keep control device monitoring records"
+      ],
+      "reporting_requirements": [
+        "Annual report due by March 31",
+        "Initial notification within 180 days of startup"
+      ],
+      "sector_segments": ["upstream", "midstream"],
+      "source_url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-60/subpart-OOOO"
+    },
+    {
+      "id": "nsps-ooooa",
+      "title": "Standards of Performance for Crude Oil and Natural Gas Facilities for which Construction, Modification or Reconstruction Commenced After September 18, 2015",
+      "citation": "40 CFR 60 Subpart OOOOa",
+      "regulation_type": "nsps",
+      "status": "effective",
+      "effective_date": "2016-08-02",
+      "description": "NSPS OOOOa extends and strengthens the requirements of NSPS OOOO, adding methane emission standards and fugitive emissions monitoring requirements for well sites and compressor stations.",
+      "applicable_facility_types": ["production", "gathering", "processing", "transmission"],
+      "applicable_emission_sources": ["storage", "fugitive", "venting", "combustion"],
+      "key_requirements": [
+        "Fugitive emissions monitoring using OGI or Method 21",
+        "Semiannual surveys for well sites, quarterly for compressor stations",
+        "Repair leaks within 30 days of detection",
+        "Pneumatic pump standards",
+        "Centrifugal compressor wet seal degassing system requirements"
+      ],
+      "monitoring_requirements": [
+        "OGI camera surveys or EPA Method 21",
+        "Quarterly monitoring for compressor stations",
+        "Semiannual monitoring for well sites",
+        "30-day repair requirement for detected leaks"
+      ],
+      "recordkeeping_requirements": [
+        "Fugitive monitoring records including date, findings, and repairs",
+        "Digital photographs or video of surveys",
+        "Delay of repair documentation"
+      ],
+      "reporting_requirements": [
+        "Annual report by March 31",
+        "Include fugitive emissions monitoring results",
+        "Report deviation from monitoring schedule"
+      ],
+      "sector_segments": ["upstream", "midstream"],
+      "source_url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-60/subpart-OOOOa"
+    },
+    {
+      "id": "nsps-oooob",
+      "title": "Standards of Performance for Crude Oil and Natural Gas Facilities: Review",
+      "citation": "40 CFR 60 Subpart OOOOb",
+      "regulation_type": "nsps",
+      "status": "effective",
+      "effective_date": "2024-05-07",
+      "description": "NSPS OOOOb updates and strengthens oil and gas emission standards, expanding fugitive monitoring requirements and adding super-emitter response programs.",
+      "applicable_facility_types": ["production", "gathering", "processing", "transmission", "storage"],
+      "applicable_emission_sources": ["storage", "fugitive", "venting", "combustion"],
+      "key_requirements": [
+        "Quarterly OGI monitoring for all sites",
+        "Zero-emission pneumatic controllers for new sources",
+        "Super-emitter response program participation",
+        "Wellhead-only well site exemption removed",
+        "Associated gas capture requirements"
+      ],
+      "monitoring_requirements": [
+        "Quarterly OGI surveys for all affected facilities",
+        "Advanced monitoring through certified third parties",
+        "Super-emitter notification response within 5 days"
+      ],
+      "recordkeeping_requirements": [
+        "Comprehensive monitoring records",
+        "Super-emitter response documentation",
+        "Equipment inventory updates"
+      ],
+      "reporting_requirements": [
+        "Annual compliance report",
+        "Super-emitter notification responses",
+        "Emissions performance data"
+      ],
+      "compliance_deadline": "2025-05-07",
+      "sector_segments": ["upstream", "midstream", "downstream"],
+      "source_url": "https://www.epa.gov/controlling-air-pollution-oil-and-natural-gas-industry"
+    },
+    {
+      "id": "neshap-hh",
+      "title": "National Emission Standards for Hazardous Air Pollutants from Oil and Natural Gas Production Facilities",
+      "citation": "40 CFR 63 Subpart HH",
+      "regulation_type": "neshap",
+      "status": "effective",
+      "effective_date": "2007-01-03",
+      "description": "NESHAP HH establishes emission standards for hazardous air pollutants (HAP) from major sources in oil and natural gas production, including glycol dehydrators and storage vessels.",
+      "applicable_facility_types": ["production", "processing"],
+      "applicable_emission_sources": ["storage", "process"],
+      "applicability_thresholds": {
+        "major_source_hap": "10 tpy single HAP or 25 tpy combined HAPs"
+      },
+      "key_requirements": [
+        "95% HAP control for glycol dehydrators with BTEX emissions ≥1 tpy",
+        "Storage vessel HAP control requirements",
+        "Equipment leak standards for major sources"
+      ],
+      "monitoring_requirements": [
+        "Continuous parameter monitoring for control devices",
+        "Periodic performance testing"
+      ],
+      "recordkeeping_requirements": [
+        "Dehydrator operating parameters",
+        "Control device monitoring data",
+        "Maintenance records"
+      ],
+      "reporting_requirements": [
+        "Semiannual compliance reports",
+        "Performance test results"
+      ],
+      "sector_segments": ["upstream"],
+      "source_url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-63/subpart-HH"
+    },
+    {
+      "id": "ghg-subpart-w",
+      "title": "Petroleum and Natural Gas Systems",
+      "citation": "40 CFR 98 Subpart W",
+      "regulation_type": "ghg_reporting",
+      "status": "effective",
+      "effective_date": "2011-01-01",
+      "description": "Subpart W of the Greenhouse Gas Reporting Program requires petroleum and natural gas facilities to report annual GHG emissions to EPA.",
+      "applicable_facility_types": ["production", "gathering", "processing", "transmission", "storage"],
+      "applicable_emission_sources": ["fugitive", "venting", "combustion", "storage"],
+      "applicability_thresholds": {
+        "reporting_threshold": "25,000 metric tons CO2e per year"
+      },
+      "key_requirements": [
+        "Annual GHG emissions calculation and reporting",
+        "Source-level emissions quantification",
+        "Methodology selection per source category",
+        "Third-party verification for large emitters"
+      ],
+      "monitoring_requirements": [
+        "Equipment counts by emission source category",
+        "Activity data collection (throughput, operating hours)",
+        "Emission factor application or direct measurement"
+      ],
+      "recordkeeping_requirements": [
+        "Retain records for 3 years",
+        "Document calculation methodology",
+        "Maintain equipment inventories"
+      ],
+      "reporting_requirements": [
+        "Annual report due March 31 via e-GGRT",
+        "Report emissions by source category",
+        "Uncertainty quantification"
+      ],
+      "sector_segments": ["upstream", "midstream", "downstream"],
+      "source_url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-98/subpart-W"
+    },
+    {
+      "id": "tceq-106-352",
+      "title": "Oil and Gas Facilities (Texas)",
+      "citation": "30 TAC 106.352",
+      "regulation_type": "state",
+      "status": "effective",
+      "effective_date": "2022-03-01",
+      "description": "Texas permit by rule for oil and gas production facilities, providing standard authorization for common equipment.",
+      "applicable_facility_types": ["production"],
+      "applicable_emission_sources": ["storage", "fugitive", "combustion"],
+      "key_requirements": [
+        "Emission limits for VOC, NOx, CO, SO2",
+        "Best management practices for tanks",
+        "Distance limitations from property lines",
+        "Flare requirements"
+      ],
+      "monitoring_requirements": [
+        "Annual emissions calculations",
+        "Equipment monitoring per NSPS"
+      ],
+      "recordkeeping_requirements": [
+        "Maintain registration records",
+        "Document emissions calculations",
+        "Keep equipment lists current"
+      ],
+      "reporting_requirements": [
+        "Registration with TCEQ",
+        "Annual emissions inventory"
+      ],
+      "sector_segments": ["upstream"],
+      "source_url": "https://www.tceq.texas.gov/permitting/air/rules/pbr"
+    }
+  ],
+  "metadata": {
+    "last_updated": "2024-12-01",
+    "version": "1.0",
+    "source": "Curated from EPA and state regulations"
+  }
+}

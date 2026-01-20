@@ -1,0 +1,370 @@
+{
+  "facilities": [
+    {
+      "id": "permian-prod-001",
+      "name": "Permian Basin Central Battery",
+      "facility_type": "production",
+      "description": "Central tank battery serving 12 producing wells in the Wolfcamp formation",
+      "address": "County Road 302",
+      "city": "Midland",
+      "county": "Midland",
+      "state": "TX",
+      "zip_code": "79701",
+      "location": {
+        "latitude": 31.9973,
+        "longitude": -102.0779,
+        "elevation_ft": 2850
+      },
+      "epa_id": null,
+      "state_id": "RN123456789",
+      "operator": "Demo Energy Partners LLC",
+      "start_date": "2019-03-15",
+      "operational_status": "active",
+      "sic_code": "1311",
+      "naics_code": "211120",
+      "is_major_source": false,
+      "title_v_applicable": false,
+      "emission_sources": [
+        {
+          "id": "src-001",
+          "name": "Crude Oil Storage Tank 1",
+          "source_type": "storage",
+          "description": "400 bbl welded steel storage tank",
+          "equipment_type": "fixed roof tank",
+          "manufacturer": "Highland Tank",
+          "capacity": "400 bbl",
+          "installation_date": "2019-03-01",
+          "potential_emissions_tpy": {
+            "VOC": 8.5,
+            "HAP": 0.8
+          },
+          "controlled": true,
+          "control_equipment": "VRU",
+          "control_efficiency": 0.95,
+          "applicable_regulations": ["40 CFR 60.5395", "40 CFR 60.5395a"]
+        },
+        {
+          "id": "src-002",
+          "name": "Crude Oil Storage Tank 2",
+          "source_type": "storage",
+          "description": "400 bbl welded steel storage tank",
+          "equipment_type": "fixed roof tank",
+          "capacity": "400 bbl",
+          "installation_date": "2019-03-01",
+          "potential_emissions_tpy": {
+            "VOC": 8.5,
+            "HAP": 0.8
+          },
+          "controlled": true,
+          "control_equipment": "VRU",
+          "control_efficiency": 0.95
+        },
+        {
+          "id": "src-003",
+          "name": "Produced Water Tank",
+          "source_type": "storage",
+          "description": "500 bbl produced water storage",
+          "equipment_type": "fixed roof tank",
+          "capacity": "500 bbl",
+          "installation_date": "2019-03-01",
+          "potential_emissions_tpy": {
+            "VOC": 2.1,
+            "HAP": 0.2
+          },
+          "controlled": false
+        },
+        {
+          "id": "src-004",
+          "name": "Wellhead Components",
+          "source_type": "fugitive",
+          "description": "Fugitive emissions from 12 wellheads",
+          "equipment_type": "wellhead",
+          "last_inspection": "2024-09-15",
+          "next_inspection_due": "2025-03-15",
+          "potential_emissions_tpy": {
+            "VOC": 4.2,
+            "Methane": 15.0
+          },
+          "monitoring_method": "OGI camera"
+        },
+        {
+          "id": "src-005",
+          "name": "Pneumatic Controllers",
+          "source_type": "venting",
+          "description": "8 high-bleed pneumatic controllers",
+          "equipment_type": "high-bleed pneumatic",
+          "potential_emissions_tpy": {
+            "VOC": 3.5,
+            "Methane": 12.0
+          }
+        },
+        {
+          "id": "src-006",
+          "name": "Separator",
+          "source_type": "fugitive",
+          "description": "3-phase separator",
+          "equipment_type": "separator",
+          "potential_emissions_tpy": {
+            "VOC": 0.5
+          },
+          "last_inspection": "2024-09-15"
+        }
+      ],
+      "permits": [
+        {
+          "permit_number": "PBR-152437",
+          "permit_type": "Permit by Rule 106.352",
+          "issuing_agency": "TCEQ",
+          "issue_date": "2019-02-01",
+          "expiration_date": null,
+          "status": "active"
+        }
+      ],
+      "total_potential_emissions_tpy": {
+        "VOC": 45.5,
+        "NOx": 0.0,
+        "CO": 0.0,
+        "HAP": 3.2,
+        "Methane": 27.0,
+        "CO2e": 15500
+      }
+    },
+    {
+      "id": "bakken-gather-001",
+      "name": "Bakken East Compressor Station",
+      "facility_type": "gathering",
+      "description": "Natural gas gathering compressor station serving Bakken production",
+      "county": "McKenzie",
+      "state": "ND",
+      "location": {
+        "latitude": 47.8533,
+        "longitude": -103.2820,
+        "elevation_ft": 2150
+      },
+      "epa_id": "ND0000012345",
+      "state_id": "NDDEQ-CS-2018-001",
+      "operator": "Demo Energy Partners LLC",
+      "start_date": "2018-06-01",
+      "operational_status": "active",
+      "sic_code": "4922",
+      "naics_code": "486210",
+      "is_major_source": true,
+      "title_v_applicable": true,
+      "emission_sources": [
+        {
+          "id": "src-010",
+          "name": "Compressor Engine 1",
+          "source_type": "combustion",
+          "description": "1500 HP natural gas reciprocating compressor",
+          "equipment_type": "4-stroke lean burn engine",
+          "manufacturer": "Caterpillar",
+          "model": "G3516B",
+          "capacity": "1500 HP",
+          "installation_date": "2018-06-01",
+          "potential_emissions_tpy": {
+            "NOx": 35.0,
+            "CO": 18.5,
+            "VOC": 8.2
+          },
+          "controlled": false,
+          "applicable_regulations": ["40 CFR 63 Subpart ZZZZ"]
+        },
+        {
+          "id": "src-011",
+          "name": "Compressor Engine 2",
+          "source_type": "combustion",
+          "description": "1500 HP natural gas reciprocating compressor",
+          "equipment_type": "4-stroke lean burn engine",
+          "manufacturer": "Caterpillar",
+          "model": "G3516B",
+          "capacity": "1500 HP",
+          "installation_date": "2018-06-01",
+          "potential_emissions_tpy": {
+            "NOx": 35.0,
+            "CO": 18.5,
+            "VOC": 8.2
+          },
+          "controlled": false
+        },
+        {
+          "id": "src-012",
+          "name": "Compressor Seals",
+          "source_type": "fugitive",
+          "description": "Reciprocating compressor rod packing vents",
+          "equipment_type": "compressor rod packing",
+          "potential_emissions_tpy": {
+            "VOC": 15.0,
+            "Methane": 45.0
+          },
+          "last_inspection": "2024-06-01",
+          "next_inspection_due": "2024-09-01"
+        },
+        {
+          "id": "src-013",
+          "name": "Glycol Dehydrator",
+          "source_type": "process",
+          "description": "Triethylene glycol dehydrator",
+          "equipment_type": "glycol dehydrator",
+          "capacity": "50 MMscfd",
+          "installation_date": "2018-06-01",
+          "potential_emissions_tpy": {
+            "VOC": 25.0,
+            "HAP": 8.5,
+            "BTEX": 5.2
+          },
+          "controlled": false,
+          "applicable_regulations": ["40 CFR 63 Subpart HH"]
+        },
+        {
+          "id": "src-014",
+          "name": "Station Piping Fugitives",
+          "source_type": "fugitive",
+          "description": "Valves, connectors, flanges throughout station",
+          "equipment_type": "piping components",
+          "potential_emissions_tpy": {
+            "VOC": 8.5,
+            "Methane": 25.0
+          },
+          "last_inspection": "2024-06-01",
+          "next_inspection_due": "2024-09-01"
+        },
+        {
+          "id": "src-015",
+          "name": "Emergency Flare",
+          "source_type": "combustion",
+          "description": "Emergency pressure relief flare",
+          "equipment_type": "enclosed flare",
+          "potential_emissions_tpy": {
+            "VOC": 2.0,
+            "NOx": 1.5,
+            "CO": 3.0
+          },
+          "controlled": true,
+          "control_efficiency": 0.98
+        }
+      ],
+      "permits": [
+        {
+          "permit_number": "TV-2018-001",
+          "permit_type": "Title V Operating Permit",
+          "issuing_agency": "NDDEQ",
+          "issue_date": "2018-05-15",
+          "expiration_date": "2028-05-15",
+          "status": "active",
+          "conditions": [
+            "Operate engines within manufacturer specifications",
+            "Conduct quarterly LDAR surveys",
+            "Maintain minimum flare pilot flame",
+            "Annual emissions inventory due March 31"
+          ]
+        },
+        {
+          "permit_number": "PSD-2017-003",
+          "permit_type": "PSD Permit",
+          "issuing_agency": "NDDEQ",
+          "issue_date": "2017-12-01",
+          "status": "active"
+        }
+      ],
+      "total_potential_emissions_tpy": {
+        "VOC": 125.0,
+        "NOx": 85.0,
+        "CO": 45.0,
+        "HAP": 12.5,
+        "Methane": 70.0,
+        "CO2e": 45000
+      },
+      "inspection_history": [
+        {
+          "date": "2024-06-15",
+          "type": "LDAR Survey",
+          "inspector": "Internal EHS",
+          "findings": "2 leaks identified, repaired within 15 days"
+        },
+        {
+          "date": "2023-09-20",
+          "type": "State Inspection",
+          "inspector": "NDDEQ",
+          "findings": "No violations noted"
+        }
+      ],
+      "violation_history": []
+    },
+    {
+      "id": "wyoming-prod-001",
+      "name": "Jonah Field Production Facility",
+      "facility_type": "production",
+      "description": "Multi-well production facility in Jonah Field",
+      "county": "Sublette",
+      "state": "WY",
+      "location": {
+        "latitude": 42.5500,
+        "longitude": -109.8000,
+        "elevation_ft": 6800
+      },
+      "state_id": "WDEQ-PF-2020-045",
+      "operator": "Demo Energy Partners LLC",
+      "start_date": "2020-01-15",
+      "operational_status": "active",
+      "is_major_source": false,
+      "title_v_applicable": false,
+      "emission_sources": [
+        {
+          "id": "src-020",
+          "name": "Tank Battery",
+          "source_type": "storage",
+          "equipment_type": "fixed roof tanks",
+          "potential_emissions_tpy": {
+            "VOC": 12.0,
+            "HAP": 1.2
+          },
+          "controlled": true,
+          "control_equipment": "Combustor",
+          "control_efficiency": 0.98
+        },
+        {
+          "id": "src-021",
+          "name": "Wellsite Fugitives",
+          "source_type": "fugitive",
+          "equipment_type": "wellhead and separator components",
+          "potential_emissions_tpy": {
+            "VOC": 5.5,
+            "Methane": 18.0
+          },
+          "last_inspection": "2024-03-10"
+        },
+        {
+          "id": "src-022",
+          "name": "Pneumatic Devices",
+          "source_type": "venting",
+          "equipment_type": "low-bleed pneumatic controllers",
+          "potential_emissions_tpy": {
+            "VOC": 1.2,
+            "Methane": 4.0
+          }
+        }
+      ],
+      "permits": [
+        {
+          "permit_number": "WAQSR-CH6-2020-015",
+          "permit_type": "Air Quality Standard Permit",
+          "issuing_agency": "WDEQ",
+          "issue_date": "2020-01-01",
+          "expiration_date": "2025-01-01",
+          "status": "active"
+        }
+      ],
+      "total_potential_emissions_tpy": {
+        "VOC": 18.7,
+        "HAP": 1.2,
+        "Methane": 22.0,
+        "CO2e": 8500
+      }
+    }
+  ],
+  "metadata": {
+    "last_updated": "2024-12-01",
+    "version": "1.0",
+    "note": "Sample facilities for demonstration purposes"
+  }
+}
